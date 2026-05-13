@@ -186,6 +186,10 @@ Foi desenvolvida uma plataforma **web** educacional responsiva que centraliza co
 🔗 **Repositório:** [Titus-System/1Semestre-ADS](https://github.com/Titus-System/1Semestre-ADS)
 🎥 **Vídeo:** [YouTube](https://youtu.be/EJ0NXAXMdkQ)
 
+#### 📐 Arquitetura
+
+![Arquitetura Mestre Ágil](img/arch_api1.svg)
+
 #### 🔧 Tecnologias Utilizadas
 
 | Tecnologia | Aplicação |
@@ -259,6 +263,10 @@ Foi desenvolvido um aplicativo **desktop** em Java que digitaliza RGs e armazena
 
 🔗 **Repositório:** [Titus-System/2semestre-ADS](https://github.com/Titus-System/2semestre-ADS)
 📦 **Download (APK/JAR):** [Releases](https://github.com/Titus-System/2semestre-ADS/releases)
+
+#### 📐 Arquitetura
+
+![Arquitetura IdScan](img/arch_api2.svg)
 
 #### 🔧 Tecnologias Utilizadas
 
@@ -335,11 +343,15 @@ Profissionais de logística, analistas de comércio exterior e tomadores de deci
 Foi desenvolvida uma plataforma **web** que centraliza dados de importação e exportação do Brasil (2014-2024), oferecendo painéis interativos, busca por código NCM, comparações entre estados e análises estatísticas avançadas (regressão linear, HHI, volatilidade, taxa de crescimento mensal, sazonalidade e concentração por país, estado e NCM). Foi implementado um modelo SARIMA para previsão de tendências com 24 meses de antecedência. O backend é uma REST API em Flask/Python que serve dados de um PostgreSQL com aproximadamente 30 milhões de registros, com camada de cache em Redis para operações pesadas e uma arquitetura totalmente dockerizada. O frontend é uma SPA em React + TypeScript + Vite com estilização em Tailwind, consumindo a API via HTTP.
 
 <p align="center">
-  <img width="40%" src="https://raw.githubusercontent.com/Titus-System/3Semestre-ADS-Backend/main/docs/logo_if_semfundo.png" alt="InsightFlow">
+  <img width="40%" src="https://raw.githubusercontent.com/Titus-System/InsightFlow/refs/heads/main/docs/logo_if_semfundo.png" alt="InsightFlow">
 </p>
 
 🔗 **Repositório (Backend):** [Titus-System/3Semestre-ADS-Backend](https://github.com/Titus-System/3Semestre-ADS-Backend)
 🔗 **Repositório (Frontend):** [Titus-System/3Semestre-ADS-Frontend](https://github.com/Titus-System/3Semestre-ADS-Frontend)
+
+#### 📐 Arquitetura
+
+![Arquitetura InsightFlow](img/arch_api3(1).svg)
 
 #### 🔧 Tecnologias Utilizadas
 
@@ -434,6 +446,10 @@ Foi desenvolvida uma aplicação **web** orientada a eventos que recebe um part-
 🔗 **Repositório (frontend):** [Titus-System/Nexa-Frontend](https://github.com/Titus-System/Nexa-Frontend)
 🎥 **Vídeos das Sprints:** [Sprint 1](https://youtu.be/jFSbepQdjow) | [Sprint 2](https://youtu.be/kPAlwLgL88o) | [Sprint 3](https://youtu.be/PD5dtSAmnF4)
 
+#### 📐 Arquitetura
+
+![Arquitetura NEXA](img/arch_api4.svg)
+
 #### 🔧 Tecnologias Utilizadas
 
 | Tecnologia | Aplicação |
@@ -475,7 +491,7 @@ Atuei como **Product Owner** do projeto, mas também fui o principal responsáve
 - Integração da API com os agentes (HTTP + Redis Pub/Sub) e com o frontend (REST + WebSocket).
 - Liderança técnica do pivô da Sprint 2, em que parte da arquitetura inicial precisou mudar por causa da lentidão e imprecisão dos modelos de linguagem rodando localmente. O parsing dos PDFs de pedido de compra foi movido dos agentes para a API com a biblioteca PDFPlumber, deixando os agentes focados apenas em pesquisas online e organização dos resultados. A boa disponibilidade do cliente foi essencial: a Creonice ajudou a refinar o parser conforme o formato específico recebido dos fornecedores da TecSys, o que elevou a precisão final do produto.
 
-**Artefatos gerados:** backlog do produto e user stories no Jira; roadmap de release; atas de Kick-Off; vídeos de demonstração das sprints; arquitetura orientada a eventos com Redis Pub/Sub; fila de tarefas Celery; endpoints REST da `Nexa-api`; camada de autenticação; integração HTTP/WebSocket/Pub-Sub entre os três serviços; módulo de parsing de PDFs com PDFPlumber; diagrama da [arquitetura final](arquitetura_nexa.svg).
+**Artefatos gerados:** backlog do produto e user stories no Jira; roadmap de release; atas de Kick-Off; vídeos de demonstração das sprints; arquitetura orientada a eventos com Redis Pub/Sub; fila de tarefas Celery; endpoints REST da `Nexa-api`; camada de autenticação; integração HTTP/WebSocket/Pub-Sub entre os três serviços; módulo de parsing de PDFs com PDFPlumber; diagrama da [arquitetura final](img/arch_api4.svg).
 
 #### 💻 Hard Skills
 
