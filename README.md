@@ -4,17 +4,15 @@
 
 <img align="left" src="https://avatars.githubusercontent.com/u/158316886?v=4" width="250" alt="Foto" hspace="24" vspace="8" style="margin-right: 24px; margin-bottom: 8px;">
 
-Nome: **Pedro Felipe Sousa Garcia**
-
-Idade: **29 anos**
+Nome: **Pedro Felipe Sousa Garcia** | Idade: **29 anos**
 
 ### 🎓 Curso
 **Tecnologia em Análise e Desenvolvimento de Sistemas**, Faculdade de Tecnologia de São José dos Campos (Fatec Prof. Jessen Vidal).
 
 ### Histórico acadêmico
-2017 a 2021 - Graduação em Publicidade e Propaganda na ECA-USP
+- 2017 a 2021 - Graduação em **Publicidade e Propaganda na ECA-USP**
 
-2024 até hoje - Cursando Tecnologia em Análise e Desenvolvimento de Sistemas na Fatec-SJC
+- 2024 até hoje - Cursando Tecnologia em **Análise e Desenvolvimento de Sistemas na Fatec-SJC**
 
 
 ### Motivação para entrar na Fatec
