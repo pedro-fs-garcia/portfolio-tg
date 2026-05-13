@@ -5,6 +5,7 @@
 <img align="left" src="https://avatars.githubusercontent.com/u/158316886?v=4" width="250" alt="Foto" hspace="24" vspace="8" style="margin-right: 24px; margin-bottom: 8px;">
 
 Nome: **Pedro Felipe Sousa Garcia**
+
 Idade: **29 anos**
 
 ### 🎓 Curso
