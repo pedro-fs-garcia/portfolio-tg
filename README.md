@@ -509,7 +509,7 @@ Atuei como **Product Owner** do projeto, mas também fui o principal responsáve
 </details>
 
 
-<details>
+<!-- <details>
 <summary><strong>[TODO] Quinto Semestre – 2026-1 | Projeto API do 5º semestre</strong></summary>
 </br>
 
@@ -543,4 +543,4 @@ Atuei como **Product Owner** do projeto, mas também fui o principal responsáve
 - **[TODO] Soft Skills** (com exemplos pontuais reais)
 
 </details>
-
+ -->
