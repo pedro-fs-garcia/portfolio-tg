@@ -179,7 +179,7 @@ Os Projetos API (Aprendizagem por Projetos Integrados) acompanham os seis semest
 |---|---|---|---|---|
 | Primeiro Semestre – 2024-1 | Mestre Ágil | Fatec-SJC (Prof. Antônio Egydio) | Desenvolvedor | Plataforma web para o ensino de Scrum, com avaliações e certificado |
 | Segundo Semestre – 2024-2 | IdScan | Fatec-SJC (Prof. Giuliano Bertoti) | Product Owner | Aplicativo desktop que extrai dados de RGs com OCR e modelos de linguagem locais |
-| Terceiro Semestre – 2025-1 | InsightFlow | Fatec-SJC (Marcos Nascimento) | Desenvolvedor | Plataforma web de análise e previsão do comércio exterior brasileiro |
+| Terceiro Semestre – 2025-1 | InsightFlow | Fatec-SJC (Prof. Marcos Nascimento) | Desenvolvedor | Plataforma web de análise e previsão do comércio exterior brasileiro |
 | Quarto Semestre – 2025-2 | NEXA | TecSys Brasil (comércio exterior) | Product Owner | Aplicação web com agentes de IA que descrevem itens para o registro de importação |
 | Quinto Semestre – 2026-1 | SyncDesk | Pro4Tech (software) | Desenvolvedor | Aplicativo mobile e aplicação web de atendimento, com triagem automatizada e chat |
 | Sexto Semestre – 2026-2 | Synapse | Dom Rock (dados e IA) | Scrum Master | Aplicação web que simula regras de comissionamento descritas por texto ou voz |
@@ -194,7 +194,7 @@ Os Projetos API (Aprendizagem por Projetos Integrados) acompanham os seis semest
 Fatec-SJC (Professor Antônio Egydio, cliente simulado).
 
 #### ❗ Problema
-Equipes iniciantes que adotam o Scrum não encontram um material didático único que conecte teoria, exemplos práticos e ferramentas de apoio. Por isso, estudantes e profissionais recorrem a conteúdos fragmentados em diferentes fontes, sem padronização e sem avaliações que confirmem o aprendizado. Como consequência, essas equipes demoram a amadurecer e aplicam de forma incorreta os papéis, os eventos e os artefatos do Scrum.
+Estudantes e profissionais que começam a adotar o Scrum aprendem o método em conteúdos fragmentados, espalhados por diferentes fontes, sem padronização e sem avaliações que confirmem o aprendizado. Por isso, teoria, exemplos práticos e ferramentas de apoio raramente aparecem juntos, e o iniciante precisa relacioná-los sozinho. Como consequência, essas equipes demoram a amadurecer e aplicam de forma incorreta os papéis, os eventos e os artefatos do Scrum.
 
 #### ✅ Solução
 A equipe desenvolveu uma plataforma **web** educacional e responsiva que reúne conteúdo teórico, exemplos práticos, ferramentas de apoio (backlog e burndown) e um sistema de avaliações com emissão de certificado. O backend foi escrito em Python com Flask e SQLite, e o frontend, em HTML, CSS, Bootstrap e JavaScript. Como o sistema foi hospedado em um servidor AWS EC2 com NGINX como proxy reverso, ele ficou acessível ao público durante e após o desenvolvimento.
@@ -245,14 +245,14 @@ Atuei como **Desenvolvedor** no projeto. Minhas principais contribuições foram
 
 #### 💻 Hard Skills
 
-- **Python**: possuo autonomia para ensinar
+- **Python**: consigo ensinar
 - **Flask**: faço com autonomia
 - **SQLite**: faço com autonomia
 - **HTML / CSS / Bootstrap**: faço com autonomia
 - **JavaScript**: faço com autonomia
 - **AWS EC2**: faço com autonomia
 - **NGINX**: faço com autonomia
-- **Git / GitHub**: possuo autonomia para ensinar
+- **Git / GitHub**: consigo ensinar
 
 #### 🗣️ Soft Skills
 
@@ -310,6 +310,7 @@ A equipe desenvolveu um aplicativo **desktop** em Java que digitaliza RGs e arma
 | **Maven** | Gerenciamento de dependências e build |
 | **Tesseract OCR** | Reconhecimento óptico de caracteres na imagem do RG |
 | **Ollama** | Execução local dos modelos de linguagem que interpretam os campos extraídos |
+| **Engenharia de prompts** | *Prompts* que orientam os modelos do Ollama a identificar cada campo do RG no texto do OCR |
 | **MySQL** | Banco de dados relacional local que armazena os documentos |
 | **JavaFX** | Telas de upload, formulário, consulta e edição |
 | **Git / GitHub** | Versionamento e colaboração |
@@ -346,7 +347,7 @@ Atuei como **Product Owner** do projeto e também participei do desenvolvimento 
 - **JavaFX**: faço com ajuda
 - **Jira**: faço com autonomia
 - **Figma**: faço com autonomia
-- **Git / GitHub**: possuo autonomia para ensinar
+- **Git / GitHub**: consigo ensinar
 
 #### 🗣️ Soft Skills
 
@@ -372,7 +373,7 @@ No IdScan, aprendi a atuar como Product Owner, transformando a conversa com o cl
 ### 💻 InsightFlow
 
 #### Empresa Parceira
-Fatec-SJC (Marcos Nascimento, cliente interno).
+Fatec-SJC (Professor Marcos Nascimento, coordenador do curso de Logística, cliente interno).
 
 #### ❗ Problema
 Profissionais de logística, analistas de comércio exterior e gestores que precisam analisar o desempenho do Brasil no comércio internacional dependem de planilhas brutas publicadas pelo Ministério do Desenvolvimento, Indústria, Comércio e Serviços. Os dados de 2014 a 2024 somam dezenas de milhões de registros, distribuídos em arquivos separados por ano e categoria e sem nenhuma camada de visualização ou cruzamento. Por isso, a consolidação manual é demorada, sujeita a erros e impede a identificação rápida de tendências, sazonalidades e oportunidades de mercado.
@@ -438,8 +439,8 @@ Atuei como **Desenvolvedor** no projeto, com foco no backend. Foi o primeiro Pro
 
 #### 💻 Hard Skills
 
-- **Python**: possuo autonomia para ensinar
-- **Flask**: possuo autonomia para ensinar
+- **Python**: consigo ensinar
+- **Flask**: consigo ensinar
 - **Jupyter Notebook**: faço com autonomia
 - **Pandas**: faço com autonomia
 - **NumPy**: faço com autonomia
@@ -452,7 +453,7 @@ Atuei como **Desenvolvedor** no projeto, com foco no backend. Foi o primeiro Pro
 - **TypeScript**: faço com ajuda
 - **React**: faço com ajuda
 - **Tailwind CSS**: faço com ajuda
-- **Git / GitHub**: possuo autonomia para ensinar
+- **Git / GitHub**: consigo ensinar
 
 #### 🗣️ Soft Skills
 
@@ -515,6 +516,7 @@ A extração dos *part-numbers* dos PDFs usa a biblioteca PDFPlumber. A `Nexa-ap
 | **Flask-SocketIO** | Comunicação WebSocket em tempo real com o frontend |
 | **Celery** | Fila de tarefas assíncronas para o processamento pesado |
 | **Redis** | Broker do Celery, cache e Pub/Sub entre a `Nexa-api` e o `Nexa-AI-Agents` |
+| **Arquitetura orientada a eventos** | Comunicação entre a `Nexa-api` e o `Nexa-AI-Agents` por eventos publicados no Redis Pub/Sub |
 | **SQLAlchemy** | ORM de acesso ao PostgreSQL |
 | **Pydantic** | Validação e tipagem dos dados de entrada e saída |
 | **PostgreSQL** | Banco relacional de usuários, operações e resultados |
@@ -551,21 +553,21 @@ Atuei como **Product Owner** do projeto e também fui o principal responsável p
 
 #### 💻 Hard Skills
 
-- **Python**: possuo autonomia para ensinar
-- **Flask / Flask-RESTful**: possuo autonomia para ensinar
+- **Python**: consigo ensinar
+- **Flask / Flask-RESTful**: consigo ensinar
 - **Flask-SocketIO / WebSocket**: faço com autonomia
 - **Celery**: faço com autonomia
 - **Redis (Pub/Sub e broker)**: faço com autonomia
 - **Arquitetura orientada a eventos**: faço com autonomia
 - **SQLAlchemy**: faço com autonomia
-- **Pydantic**: possuo autonomia para ensinar
-- **PostgreSQL**: possuo autonomia para ensinar
+- **Pydantic**: consigo ensinar
+- **PostgreSQL**: consigo ensinar
 - **PDFPlumber**: faço com ajuda
 - **Ollama / modelos de linguagem locais**: faço com autonomia
 - **Docker / Docker Compose**: faço com autonomia
 - **Pytest**: faço com autonomia
 - **Jira**: faço com autonomia
-- **Git / GitHub**: possuo autonomia para ensinar
+- **Git / GitHub**: consigo ensinar
 
 #### 🗣️ Soft Skills
 
@@ -594,7 +596,7 @@ No NEXA, aprendi a projetar sistemas que toleram latência alta, com fila de tar
 **Pro4Tech**, empresa de software que presta suporte aos produtos que fornece aos clientes. Contatos do cliente: Larissa Souza e Rafael Monteiro. Professor responsável pelo projeto na Fatec: Gerson Penha.
 
 #### ❗ Problema
-O suporte da Pro4Tech não tinha um canal estruturado para receber as demandas dos clientes, um registro único do histórico das conversas ou um controle do ciclo de vida de cada solicitação. Como não havia triagem, cada contato chegava ao atendente sem classificação, e o atendente precisava descobrir sozinho qual produto estava envolvido e se o caso era uma falha, um pedido de funcionalidade, uma dúvida ou uma liberação de acesso. Além disso, a falta de dados estruturados impedia a gestão de acompanhar prazos, volume de demandas por produto e desempenho dos atendentes.
+As demandas dos clientes chegavam ao suporte da Pro4Tech sem nenhuma classificação, e o atendente precisava descobrir sozinho qual produto estava envolvido e se o caso era uma falha, um pedido de funcionalidade, uma dúvida ou uma liberação de acesso. Além disso, o histórico das conversas não ficava registrado em um único lugar, e ninguém sabia em que etapa estava cada solicitação. Por isso, a gestão não conseguia acompanhar prazos, volume de demandas por produto e desempenho dos atendentes.
 
 #### ✅ Solução
 A equipe desenvolveu um sistema de atendimento com um aplicativo **mobile** (React Native e Expo) para os clientes da Pro4Tech, chamados de solicitantes, e uma aplicação **web** (React e Vite) para atendentes e administradores. O solicitante começa por uma URA (chatbot de triagem) que identifica o produto e o tipo de demanda e abre o chamado automaticamente. A partir desse momento, solicitante e atendente conversam em tempo real por WebSocket até o encerramento e a avaliação do chamado. O backend é uma API em FastAPI com PostgreSQL e MongoDB.
@@ -630,6 +632,7 @@ O diagrama mostra a visão geral do sistema. Os aplicativos mobile e web consome
 | **MongoDB / Beanie** | Conversas, mensagens e atendimentos da URA |
 | **JWT / Argon2** | Autenticação, sessões com *refresh token* e hash de senhas |
 | **WebSocket** | Chat em tempo real entre solicitante e atendente |
+| **Arquitetura orientada a eventos (`EventDispatcher` e *outbox*)** | Comunicação entre os domínios da API e envio garantido dos e-mails |
 | **MinIO (S3)** | Armazenamento de anexos do chat e avatares, com upload por URL pré-assinada |
 | **Resend** | Envio de e-mails transacionais (boas-vindas e redefinição de senha) |
 | **Prometheus / Grafana / Loki / Alertmanager** | Métricas, painéis, logs centralizados e alertas |
@@ -663,10 +666,10 @@ Atuei como **Desenvolvedor** e fui o principal responsável pelo backend, com 11
 
 #### 💻 Hard Skills
 
-- **Python**: possuo autonomia para ensinar
-- **FastAPI**: possuo autonomia para ensinar
+- **Python**: consigo ensinar
+- **FastAPI**: consigo ensinar
 - **SQLAlchemy (async) / Alembic**: faço com autonomia
-- **PostgreSQL**: possuo autonomia para ensinar
+- **PostgreSQL**: consigo ensinar
 - **MongoDB / Beanie**: faço com autonomia
 - **WebSocket**: faço com autonomia
 - **Autenticação com JWT e gestão de sessões**: faço com autonomia
@@ -678,7 +681,7 @@ Atuei como **Desenvolvedor** e fui o principal responsável pelo backend, com 11
 - **Pytest**: faço com autonomia
 - **React Native / Expo**: faço com ajuda
 - **React**: faço com ajuda
-- **Git / GitHub**: possuo autonomia para ensinar
+- **Git / GitHub**: consigo ensinar
 
 #### 🗣️ Soft Skills
 
@@ -741,14 +744,17 @@ O Deepgram transcreve a fala, e o `codegen` abre um chat de correção quando a 
 | **Liquibase / Testcontainers** | Migrações do banco e testes de integração da API com PostgreSQL e RabbitMQ reais |
 | **Python / LangGraph** | `codegen`: extração da regra, geração de código, sugestão de ajuste e explicação dos resultados |
 | **Gemini (LangChain Google GenAI)** | Modelo de linguagem usado pelo `codegen` |
+| **Engenharia de prompts** | *Prompts* do `codegen` para extrair a regra, gerar o código e explicar os resultados |
 | **Deepgram** | Transcrição dos áudios das regras |
 | **Docker** | Execução isolada e sem rede do código gerado, com os dados e os *baselines* incluídos na imagem |
 | **RabbitMQ** | Único canal de comunicação entre a API, o `codegen` e o `worker` |
+| **Padrão *outbox* transacional** | Publicação dos eventos da API no RabbitMQ na mesma transação que grava a simulação no banco |
 | **PostgreSQL** | Banco único (simulações, regras, resultados, auditoria e checkpoints do LangGraph), com um usuário por serviço |
 | **Keycloak** | Provedor de identidade (OIDC com PKCE) e emissão dos tokens JWT validados pela API |
 | **JSON Schema** | Contratos de eventos, domínio e HTTP compartilhados entre os quatro serviços e validados na CI |
 | **Grafana / Prometheus / Loki / Alloy** | Logs estruturados e métricas correlacionados por simulação |
 | **Caddy** | Proxy reverso do ambiente de staging |
+| **ADRs (Architecture Decision Records)** | Registro das decisões de arquitetura, com contexto, justificativa e consequências |
 | **GitHub Actions** | Verificação de cada serviço e deploy independente de cada um deles |
 | **Git / GitHub** | Monorepo com os quatro serviços e GitHub Projects para a gestão das tarefas |
 
@@ -777,21 +783,21 @@ Atuei como **Scrum Master** do projeto. Também fui responsável pela arquitetur
 
 #### 💻 Hard Skills
 
-- **Arquitetura de software (serviços, eventos e ADRs)**: faço com autonomia
-- **Python**: possuo autonomia para ensinar
+- **ADRs (registro de decisões de arquitetura)**: faço com autonomia
+- **Python**: consigo ensinar
 - **LangGraph / agentes de IA**: faço com autonomia
 - **Engenharia de prompts**: faço com autonomia
 - **Java / Spring Boot**: faço com ajuda
 - **RabbitMQ**: faço com autonomia
 - **Padrão *outbox* transacional**: faço com autonomia
-- **PostgreSQL**: possuo autonomia para ensinar
+- **PostgreSQL**: consigo ensinar
 - **Docker (isolamento de execução)**: faço com autonomia
 - **Keycloak / OIDC**: faço com ajuda
 - **JSON Schema (contratos entre serviços)**: faço com autonomia
 - **GitHub Actions (CI/CD)**: faço com autonomia
 - **Grafana / Prometheus / Loki**: faço com autonomia
 - **Vue.js**: faço com ajuda
-- **Git / GitHub**: possuo autonomia para ensinar
+- **Git / GitHub**: consigo ensinar
 
 #### 🗣️ Soft Skills
 
