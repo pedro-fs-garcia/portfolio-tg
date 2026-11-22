@@ -246,7 +246,7 @@ negociar contratos entre equipes e responder pela operação do sistema depois d
 \section{INTRODUÇÃO}
 % ===========================================================================
 
-O Synapse é o projeto de API do sexto semestre, desenvolvido entre 26/08/2026 e 03/12/2026 em parceria com a Dom Rock, empresa de inteligência de dados e inteligência artificial (TITUS SYSTEMS, 2026a). Esta introdução apresenta o projeto em detalhe, porque ele dá título a este trabalho e reúne as competências desenvolvidas ao longo do curso. As subseções a seguir descrevem o problema proposto, a relevância desse problema, a solução e a arquitetura do sistema, os mecanismos de validação e auditoria, as tecnologias, o papel do autor e os resultados obtidos.
+O Synapse é o projeto de API do sexto semestre, desenvolvido entre 26/08/2026 e 22/11/2026 em parceria com a Dom Rock, empresa de inteligência de dados e inteligência artificial (TITUS SYSTEMS, 2026a). Esta introdução apresenta o projeto em detalhe, porque ele dá título a este trabalho e reúne as competências desenvolvidas ao longo do curso. As subseções a seguir descrevem o problema proposto, a relevância desse problema, a solução e a arquitetura do sistema, os mecanismos de validação e auditoria, as tecnologias, o papel do autor e os resultados obtidos.
 
 % ---------------------------------------------------------------------------
 \subsection{Contexto e problema}
@@ -373,7 +373,7 @@ A equipe organizou o desenvolvimento em três \termo{sprint}{sprints}, com as en
 
 Com essas entregas, o sistema simula uma regra de comissionamento descrita em linguagem natural sobre as cinco competências publicadas (agosto a dezembro de 2025), compara o custo com o baseline e com o orçamento e registra cada etapa para auditoria. A apresentação final está marcada para a Feira de Soluções de 03/12/2026.
 
-O sistema tem duas limitações, declaradas ao usuário. A primeira é que o backtesting mantém o comportamento histórico das vendas e, portanto, não estima como uma comissão diferente alteraria o volume vendido. A segunda é que o baseline é calculado pelo próprio sistema a partir das regras da especificação, e não pelo valor que a empresa efetivamente pagou, que não faz parte dos dados fornecidos. Por isso, as diferenças apresentadas medem o efeito da regra dentro do modelo de cálculo implementado, e a validação contra os valores reais depende de dados que só a Dom Rock pode fornecer.
+O sistema tem duas limitações, declaradas ao usuário e acordadas com o cliente. A primeira é que o backtesting mantém o comportamento histórico das vendas e, portanto, não estima como uma comissão diferente alteraria o volume vendido. A segunda é que o baseline é calculado pelo próprio sistema a partir das regras da especificação, e não pelo valor que a empresa efetivamente pagou, que não faz parte dos dados fornecidos. Por isso, as diferenças apresentadas medem o efeito da regra dentro do modelo de cálculo implementado, e a validação contra os valores reais depende de dados que só a Dom Rock pode fornecer.
 
 % ---------------------------------------------------------------------------
 \subsection{Organização do documento}
@@ -472,7 +472,7 @@ As tecnologias utilizadas foram Python, FastAPI, SQLAlchemy, Alembic, PostgreSQL
 \subsection{ANO 3 – 2º semestre: Synapse}
 % ---------------------------------------------------------------------------
 
-O Synapse foi desenvolvido entre 26/08/2026 e 03/12/2026 (TITUS SYSTEMS, 2026a). A empresa parceira foi a Dom Rock, que atua com inteligência de dados e inteligência artificial. O problema proposto era que as regras de comissionamento de vendas mudam com frequência, chegam em texto livre e não ficam registradas de forma estruturada, de modo que a empresa não sabe quanto uma regra nova custaria antes de aplicá-la, nem consegue explicar a um auditor a origem de cada valor pago. A contribuição pretendida era simular o custo de cada regra antes da aplicação e registrar cada etapa dessa simulação.
+O Synapse foi desenvolvido entre 26/08/2026 e 22/11/2026 (TITUS SYSTEMS, 2026a). A empresa parceira foi a Dom Rock, que atua com inteligência de dados e inteligência artificial. O problema proposto era que as regras de comissionamento de vendas mudam com frequência, chegam em texto livre e não ficam registradas de forma estruturada, de modo que a empresa não sabe quanto uma regra nova custaria antes de aplicá-la, nem consegue explicar a um auditor a origem de cada valor pago. A contribuição pretendida era simular o custo de cada regra antes da aplicação e registrar cada etapa dessa simulação.
 
 O autor atuou como \termo{sm}{Scrum Master} e foi responsável pela arquitetura do sistema. A equipe está desenvolvendo uma aplicação web em que o profissional de recursos humanos descreve a regra por texto ou por voz. Um serviço de inteligência artificial gera o código da regra, e esse código roda em um \termo{container}{container} isolado que recalcula o comissionamento de competências passadas e o compara com o \termo{baseline}{baseline}, sem que nenhum valor seja calculado pelo \termo{modelo}{modelo de linguagem}. Como o Synapse é o projeto de destaque deste trabalho, o problema, a arquitetura, os mecanismos de validação e auditoria, as tecnologias, o papel do autor e os resultados estão descritos em detalhe no Capítulo~1.
 
