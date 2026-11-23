@@ -763,10 +763,11 @@ O Deepgram transcreve a fala, e o `codegen` abre um chat de correção quando a 
 Atuei como **Scrum Master** do projeto. Também fui responsável pela arquitetura do sistema e fui o integrante com mais commits no repositório (183 de 402).
 
 **Como Scrum Master:**
-- Definição do fluxo de trabalho da equipe, registrada na ADR-005, com a estratégia de branches, a validação das entregas pela Product Owner no ambiente de staging antes da branch `main` e critérios de pronto ligados à verificação automática do código.
-- Organização das tarefas no GitHub Projects, com uma automação que move para a coluna "Ready" as tarefas cujas dependências foram resolvidas, o que reduziu a espera entre uma entrega e a tarefa seguinte.
+- Organização do trabalho no GitHub Projects, com cada tarefa registrada como uma issue com data de vencimento. Dividi as funcionalidades em tarefas pequenas o suficiente para serem concluídas em um ou dois dias, conforme a complexidade, e configurei uma automação que move para a coluna "Ready" as tarefas cujas dependências foram resolvidas.
+- Acompanhamento do andamento em reuniões presenciais semanais e, entre elas, pelo GitHub Projects, pelo WhatsApp e por outros meios assíncronos. Como cada tarefa era curta e tinha prazo próprio, o quadro me dava uma visão completa do andamento do projeto.
+- Reuniões da equipe após cada sprint review para discutir o retorno do cliente e propor ajustes e novas funcionalidades. Como as diretrizes gerais do que o Synapse incluiria ou não foram definidas no início do projeto, essas reuniões corrigiam o rumo do produto, em vez de redefinir sua direção.
+- Definição e condução do fluxo de entrega, registrado na ADR-005. Cada tarefa tinha uma branch própria e terminava em um pull request, que eu revisava e integrava à `develop`. Na última semana da sprint, em geral, eu integrava a `develop` à `staging`, e o GitHub Actions publicava a nova versão em um servidor mantido por mim, onde a Product Owner testava as funcionalidades. Enquanto isso, a equipe concluía as tarefas restantes e incorporava as correções propostas pela Product Owner. Ao final da sprint, todo o código era integrado à `main`.
 - Resolução de impedimentos de escopo durante as sprints, com decisões registradas na documentação do projeto. Em 15/09/2026, por exemplo, confirmei as cinco competências mensais usadas na simulação e decidi que toda comissão positiva precisa ter uma origem rastreável.
-<!-- [TODO] Descrever como conduzi as cerimônias Scrum no Synapse (daily, planning, review, retrospectiva): frequência, formato e algum exemplo concreto. -->
 
 **Como desenvolvedor:**
 - Definição da arquitetura e registro das decisões em ADRs (Architecture Decision Records), com a arquitetura assíncrona e orientada a eventos (ADR-001), o monorepo com várias linguagens (ADR-002), a coleta centralizada de logs e métricas (ADR-004) e o fluxo de trabalho com IA, branches e CI/CD (ADR-005), além do documento geral de arquitetura.

@@ -189,7 +189,28 @@ São José dos Campos\\
 % ===========================================================================
 \titulocentralizado{AGRADECIMENTOS}
 
-\textcolor{red}{[TODO: texto dos agradecimentos, com no máximo uma página]}
+Não sei se seria melhor começar pelo princípio ou pelo fim. Supondo que o mais comum seja começar
+pelo início, me esforçarei em começar pelo fim.
+
+O fim é este documento, que ninguém lê com mais atenção que a banca. Nem mesmo o autor,
+com a caneta na mão e a concentração do escritor, consegue ler como um juiz. Por isso,
+os agradecimentos iniciais chegam aos componentes da banca, que não satisfeitos com esta página,
+precisarão chegar à última. Mas tranquilizem-se. Apenas aqui eu tomo a liberdade do estilo.
+
+Por orientar este TG com a paciência de quem já viu muito deploy de sexta-feira,
+agradeço ao Prof. Me. José Walmir Gonçalves Duque.
+
+Foram seis semestres de FATEC, e faltaria papel à impressora para falar sobre todos os professores
+que me ensinaram, com dedicação e paciência, a ser um bom profissional. A todos eles, deixo meus agradecimentos.
+
+Aos colegas que dividiram comigo esses semestres, agradeço, sobretudo, pelas discussões.
+Seria prosaico e frívolo agradecê-los pela companhia; por isso, o omito. O que eu não posso omitir
+são as discordâncias, as novas abordagens a problemas e soluções que eu pensava já conhecer.
+A eles vai meu apreço particular por pessoas inteligentes que discordam de mim.
+
+E, encerrando pelo princípio, agradeço àqueles que, por mais que não soubessem bem o que eu fazia,
+deram-me uma vida em que trabalhos como este fossem possíveis. Esse início é a minha família, à qual devo todos os outros inícios.
+
 \clearpage
 
 % ===========================================================================
@@ -340,7 +361,11 @@ GitHub Actions & Verificação de cada serviço e deploy independente no ambient
 \subsection{Papel do autor}
 % ---------------------------------------------------------------------------
 
-No Synapse, o autor atuou como \termo{sm}{Scrum Master} e foi responsável pela arquitetura do sistema, além de ter sido o integrante com mais commits no repositório (183 de 402). Como Scrum Master, definiu o fluxo de trabalho da equipe, em que cada funcionalidade é desenvolvida em uma branch própria, revisada por pelo menos um colega e validada pela \termo{po}{Product Owner} no ambiente de homologação antes de chegar à versão principal. Também organizou as tarefas no GitHub Projects, com uma automação que move para a coluna de tarefas prontas aquelas cujas dependências foram resolvidas, e resolveu impedimentos de escopo ao longo das \termo{sprint}{sprints}, com as decisões registradas na documentação do projeto. Essas atividades correspondem às responsabilidades do Scrum Master descritas por Schwaber e Sutherland (2020). \textcolor{red}{[TODO: como o autor conduziu as cerimônias Scrum no Synapse (daily, planning, review e retrospectiva), com frequência, formato e um exemplo concreto]}
+No Synapse, o autor atuou como \termo{sm}{Scrum Master} e foi responsável pela arquitetura do sistema, além de ter sido o integrante com mais commits no repositório (183 de 402). Como Scrum Master, organizou o trabalho da equipe no GitHub Projects, em que cada tarefa era registrada como uma \textit{issue} com data de vencimento. O autor dividiu as funcionalidades em tarefas pequenas o suficiente para serem concluídas em um ou dois dias, conforme a complexidade de cada uma, e configurou uma automação que move para a coluna de tarefas prontas aquelas cujas dependências foram resolvidas. Como cada tarefa era curta e tinha prazo próprio, o quadro do GitHub Projects dava ao autor uma visão completa do andamento do projeto.
+
+O andamento das tarefas era acompanhado em reuniões presenciais semanais e, entre elas, pelo GitHub Projects, pelo WhatsApp e por outros meios de comunicação assíncrona. Após cada \textit{sprint review}, a equipe se reunia para discutir o retorno do cliente e propor ajustes e novas funcionalidades. Como as diretrizes gerais do que o Synapse incluiria ou não foram definidas no início do projeto, essas reuniões corrigiam o rumo do produto, em vez de redefinir sua direção. Além disso, o autor resolveu impedimentos de escopo ao longo das \termo{sprint}{sprints} e registrou as decisões na documentação do projeto, como a definição das competências usadas na simulação.
+
+O autor também definiu e conduziu o fluxo de entrega do código. Cada tarefa era desenvolvida em uma branch própria e finalizada por um \textit{pull request}, que o autor revisava e integrava à branch de desenvolvimento. Quando a sprint avançava o suficiente, geralmente na última semana, o autor integrava essa branch à branch de homologação, e um pipeline do GitHub Actions publicava a nova versão em um servidor mantido por ele, onde a \termo{po}{Product Owner} testava as funcionalidades. Enquanto isso, a equipe concluía as tarefas restantes da sprint e incorporava as observações e correções propostas pela Product Owner. Ao final da sprint, todo o código era integrado à branch principal, que corresponde à versão apresentada ao cliente. Essas atividades correspondem às responsabilidades do Scrum Master descritas por Schwaber e Sutherland (2020), que incluem remover impedimentos ao progresso da equipe e garantir que os eventos do Scrum aconteçam de forma produtiva.
 
 Como o uso de inteligência artificial generativa no desenvolvimento era obrigatório, o autor também definiu como a equipe deveria usá-la. Cada serviço recebeu instruções próprias para os assistentes de código, com as regras de segurança daquele serviço, e um script de verificação com compilação, tipagem, análise estática e testes. Um gancho executado antes de cada commit roda a verificação apenas dos serviços alterados, e a integração contínua roda o mesmo comando, de modo que o código gerado com apoio de inteligência artificial passa pelos mesmos critérios que o código escrito manualmente.
 
